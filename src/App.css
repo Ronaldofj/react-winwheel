@@ -14,7 +14,48 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+	color: white;
+}
+
+.App-header button {
+	background-color: #09d3ac;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.button-wrapper {
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-top: 80px solid #09d3ac;
+	position: absolute;
+	top: 200px;
+}
+
+.modal {
+	background-color: #09d3ac;
+	padding: 30px;
+	color: #282c34;
+}
+
+.mascara-modal {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0, 0.5);
+	position: fixed;
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .App-link {
